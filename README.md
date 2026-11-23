@@ -45,7 +45,6 @@ echo "Setup completed successfully!"
 echo "You can now run: node app.js"
 ```
 SCRIPT 2 — Manual Install (Amazon Linux / ec2-user):
-
 ```
 #!/bin/bash
 set -e
@@ -69,6 +68,35 @@ sudo npm install express
 
 echo "Installing supporting tools (ruby, wget)..."
 sudo yum install -y ruby wget
+
+echo "Setup completed successfully!"
+echo "You can now run: node app.js"
+```
+SCRIPT 2 — Updated -New Manual Install (Amazon Linux / ec2-user):
+
+```
+#!/bin/bash
+set -e
+
+echo "Updating system..."
+sudo apt update -y
+
+echo "Installing prerequisites..."
+sudo apt install -y curl ca-certificates gnupg
+
+echo "Installing Node.js 18 LTS..."
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+
+echo "Verifying Node.js installation..."
+node -v
+npm -v
+
+echo "Installing Express..."
+sudo npm install express
+
+echo "Installing supporting tools (ruby, wget)..."
+sudo apt install -y ruby wget
 
 echo "Setup completed successfully!"
 echo "You can now run: node app.js"
