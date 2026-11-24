@@ -26,7 +26,7 @@ const products = [
     id: '103',
     name: 'Noise Cancelling Headphones',
     category: 'Accessories - details',
-    price: 30000,
+    price: 70000,
     rating: 4.5,
     badge: 'Trending',
     desc: 'Wireless headphones with active noise cancellation and crystal-clear sound.'
@@ -35,7 +35,7 @@ const products = [
     id: '104',
     name: 'Smart Fitness Watch',
     category: 'New Wearables',
-    price: 80000,
+    price: 90000,
     rating: 4.7,
     badge: 'Popular',
     desc: 'Advanced fitness tracking with heart rate monitoring and smart notifications.'
