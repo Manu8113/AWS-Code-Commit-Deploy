@@ -17,7 +17,7 @@ const products = [
     id: '102',
     name: 'AI Camera Smartphone',
     category: 'Mobiles and accessories',
-    price: 20000,
+    price: 100,
     rating: 4.6,
     badge: 'New 2026 Launch',
     desc: 'Next-generation smartphone with AI-powered camera and ultra-fast performance.'
