@@ -17,7 +17,7 @@ const products = [
     id: '102',
     name: 'AI Camera Smartphone',
     category: 'Mobiles and accessories',
-    price: 20000,
+    price: 40000,
     rating: 4.6,
     badge: 'New 2026 Launch',
     desc: 'Next-generation smartphone with AI-powered camera and ultra-fast performance.'
@@ -26,7 +26,7 @@ const products = [
     id: '103',
     name: 'Noise Cancelling Headphones',
     category: 'Accessories - details',
-    price: 10000,
+    price: 40000,
     rating: 4.5,
     badge: 'Trending',
     desc: 'Wireless headphones with active noise cancellation and crystal-clear sound.'
@@ -35,7 +35,7 @@ const products = [
     id: '104',
     name: 'Smart Fitness Watch',
     category: 'New Wearables',
-    price: 20000,
+    price: 30000,
     rating: 4.7,
     badge: 'Popular',
     desc: 'Advanced fitness tracking with heart rate monitoring and smart notifications.'
